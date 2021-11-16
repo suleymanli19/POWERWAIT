@@ -118,8 +118,38 @@ body {
 }
 
 .hero .services{
-    border: 1px solid black;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    background-color: #EFEFEF;
+    
+}
 
+.hero .services .service1 p{
+    color: #6A6E6D;
+}
+
+.hero .services .service1{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+}
+
+.hero .services .service2 p{
+    color: #6A6E6D;
+}
+
+.hero .services .service2{
+    width: 33%;
+    height: 200px;
+}
+
+.hero .services .service3{
+    width: 33%;
+    height: 200px;
+}
+.hero .services .service3 p{
+color: #6A6E6D;
 }
