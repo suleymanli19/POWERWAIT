@@ -113,8 +113,10 @@ body {
 
 .hero .base{
     width: 100%;
-    height: 300px;
+    height: 50%;   
     background-color: #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero .services{
@@ -153,3 +155,42 @@ body {
 .hero .services .service3 p{
 color: #6A6E6D;
 }
+
+.base .tariff{
+    width: 50%;
+    height: 350px;
+    padding: 50px;
+}
+
+.base .tariff h2{
+    font-size: 24px;
+}
+
+.base .tariff p{
+    font-size: 16px;
+}
+
+.base .tariff a{
+    color: #045725;
+    font-size: 16px;
+}
+
+.base .benefits{
+    width: 50%;
+    height: 350px;
+    background-color: #E4C2B1;
+    
+    
+}
+
+.base .benefits .offerss{
+    font-size: 16px;
+    background-color: white;
+    height: 0px;
+    align-items: center;
+}
+
+.base .benefits .offerss h2{
+    font-size: 24px;
+}
+
