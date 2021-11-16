@@ -78,7 +78,7 @@ body {
 .restangle2{
     width: 50%;
     height: 400px;
-    background-image: url(/images/Mask\ group.png);
+    
     
 }
 
@@ -194,3 +194,12 @@ color: #6A6E6D;
     font-size: 24px;
 }
 
+.getquote2 a{
+    text-decoration: none;
+    color: red;
+    background-color: rgb(177, 140, 140);
+    padding: 40px;
+    border-radius: 10px;
+
+
+}
