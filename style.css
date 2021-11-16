@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+  }
+  
+.header {
+    position: relative;
+    padding: 1.3rem;
+  }
+  
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    
+}
+  
+.nav .logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #003D2B;
+}
+  
+.nav .nav-links li {
+    display: inline-block;
+    padding-left: 10px;
+}
+  
+.nav .nav-links li a {
+    text-decoration: none;
+    color: #003D2B;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+  
+.nav .nav-links li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+  
+.nav .nav-links .selected a {
+    color: #003D2B;
+    font-weight: 900;
+}
+
+.restangles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.restangle1{
+    width: 50%;
+    height: 400px;
+    background-color: #E4C2B1 ;
+    
+}
+
+.restangle2{
+    width: 50%;
+    height: 400px;
+    background-image: url(/images/Mask\ group.png);
+    
+}
+
+.text1{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 18px;
+}
+
+.hero .offers .offer1{
+    position: absolute;
+    left: 50px;
+    top: 190px;
+}
+.hero .offers .offer2{
+    position: absolute;
+    left: 50px;
+    top: 240px;
+}
+.hero .offers .offer3{
+    position: absolute;
+    left: 50px;
+    top: 290px;
+}
+
+.getquote{
+    position: absolute;
+    left: 40px;
+    top: 350px;
+}
+
+.hero .base{
+    width: 100%;
+    height: 300px;
+    background-color: #EFEFEF;
+}
+
+.hero .services{
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
