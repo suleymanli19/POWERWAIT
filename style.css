@@ -89,20 +89,41 @@ body {
     font-size: 18px;
 }
 
+.hero .offers .offer1 img{
+    float: left;
+    width: 20px;
+}
+
 .hero .offers .offer1{
+    display: inline-block;
     position: absolute;
     left: 50px;
     top: 190px;
+    width: 400px;
+    
 }
 .hero .offers .offer2{
+    display: inline-block;
     position: absolute;
     left: 50px;
     top: 240px;
 }
+
+.hero .offers .offer2 img{
+    float: left;
+    width: 20px;
+}
+
 .hero .offers .offer3{
+    display: inline-block;
     position: absolute;
     left: 50px;
     top: 290px;
+}
+
+.hero .offers .offer3 img{
+    float: left;
+    width: 20px;
 }
 
 .getquote{
@@ -194,12 +215,130 @@ color: #6A6E6D;
     font-size: 24px;
 }
 
-.getquote2 a{
-    text-decoration: none;
-    color: red;
-    background-color: rgb(177, 140, 140);
-    padding: 40px;
-    border-radius: 10px;
-
-
+.greta {
+    display: flex;
+    width: 100%;
+    background: #EFEFEF;
 }
+
+.exten {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 13rem;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.box1 img {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    margin-right: 2.5rem;
+}
+
+.sen h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.sen span {
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #6A6E6D;
+}
+
+.arrow {
+    margin-left: 20rem;
+}
+
+.arrow img {
+    width: 10px;
+    height: 17px;
+}
+
+.yeni {
+    width: 100%;
+    padding: 10rem 1rem;
+}
+
+.yazi h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.yazi p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+}
+
+.great {
+    display: flex;
+    padding: 10rem 7.5rem;
+    width: 100%;
+}
+
+.what {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.what2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.not {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img12 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+    position: relative;
+    top: 1.45rem;
+}
+
+.img12 h2 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.img12 h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.img12 span {
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: relative;
+    left: 6.6rem;
+}
+
+.img12 {
+    margin-bottom: 2.5rem;
+}
+
