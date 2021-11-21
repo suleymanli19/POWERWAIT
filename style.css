@@ -342,3 +342,234 @@ color: #6A6E6D;
     margin-bottom: 2.5rem;
 }
 
+.store {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 8.1rem 6rem;
+    background-color: #EFEFEF;
+}
+
+.google {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.google h4 {
+    font-size: 2.025rem;
+    font-weight: 500;
+    color: #025F44;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+    margin-left: -0.5rem;
+}
+
+.google img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1.02rem;
+    margin-bottom: 1.25rem;
+}
+
+.google a {
+    display: block;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #045725;
+    margin-left: -0.2rem;
+}
+
+.customer {
+    width: 100%;
+    display: flex;
+    padding: 8rem;
+}
+
+.voice {
+    width: 60%;
+    padding: 1rem 4.2rem 0rem 1.25rem;
+}
+
+.voice h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.voice p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #6A6E6D;
+}
+
+.img125 {
+    width: 56%;
+    height: 31.4rem;
+    margin-top: 2.7rem;
+    padding-left: 4rem;
+    background-image: url('./images/Shape-146.png');
+}
+
+.img125 img {
+    width: 35rem;
+    height: 35rem;
+    margin-top: -1.6rem;
+}
+
+.john {
+    width: 31%;
+    padding: 3rem 2.5rem;
+}
+
+.john h3 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.12rem;
+    margin-bottom: 2.25rem;
+}
+
+.john p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 2.756rem;
+}
+
+.john img {
+    margin-bottom: 2.754rem;
+    width: 25px;
+    height: 25px;
+}
+
+.john .indic {
+    width: 230px;
+    height: 85px;
+    margin-left: 7rem;
+}
+
+.john .mb {
+    margin-bottom: 11rem;
+}
+
+.faq {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 9rem 15rem;
+    background: #EFEFEF;
+}
+
+.faq h2 {
+    font-weight: 600;
+    font-size: 4.75rem;
+    line-height: 5.21rem;
+}
+
+.faq .box6 {
+    width: 63%;
+    margin: 0 auto;
+}
+
+.faq .box1 .men img {
+    width: 20px;
+    height: 20px;
+}
+
+.box1 .arrow12 img {
+    width: 10px;
+    height: 17px;
+}
+
+.powerwait {
+    width: 100%;
+    margin: 0 auto;
+    padding: 9rem 12rem;
+    background: #E4C2B1;
+}
+
+.download {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download h2 {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 4.25rem;
+    margin-bottom: 2.35rem;
+    text-align: center;
+}
+
+.download p {
+    font-size: 1.85rem;
+    font-weight: 500;
+    line-height: 3rem;
+    margin-bottom: 2.35rem;
+}
+
+.company {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 12rem;
+}
+
+.company .links {
+    width: 25%;
+    padding: 0.5rem;
+}
+
+.links {
+    width: 25%;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin-bottom: 2rem
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #000;
+}
+
+.links h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-bottom: 3.56rem;
+}
+
+.produc h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    margin-bottom: 3.56rem;
+}
+
+.produc {
+    width: 25%;
+}
+
+.region img {
+    width: 175px;
+    height: 95px;
+}
+
+.region {
+    width: 25%;
+}
+
+.text {
+    width: 75%;
+    margin: 9rem 12.4rem;
+}
